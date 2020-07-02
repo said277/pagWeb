@@ -1,0 +1,112 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+.center-align{
+  margin: 0 auto;
+  width: 1100px;
+}
+.color-negro{color: black;}
+.color-white{color: whitesmoke;}
+.ultparr{
+  padding-bottom: 30px;
+}
+.dev{
+  padding-top: 15px;
+}
+.section-columns > div{
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+.section-columns h2{
+  font-size: 72px;
+}
+#intro-container .section-columns h2{
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+.section-columns #image-bg{
+  background-image: url("../img/messi.png");
+  background-repeat: no-repeat;
+  background-position: -138px -9px;
+  height: 500px;
+}
+
+.rectangle{
+  height: 100px;
+  margin-top: -50px;
+}
+.bg-white{
+  background-color: white;
+}
+.skew-left{
+  transform: skewY(+3deg);
+}
+
+.btn{
+  border: solid 1px;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+.btn-black{
+  background-color: white;
+  color: black;
+}
+.btn-black:hover{
+  background-color: blue;
+  border-color: white;
+  color: white;
+}
+
+.btn-white{
+  background-color: white;
+  color: black;
+}
+.btn-white:hover{
+  background-color: white;
+  border-color: black;
+  color: black;
+}
+
+#intro-container{
+  background-color: black;
+  padding-top: 100px;
+}
+#intro-container menu{
+  padding: 0;
+  margin: 0;
+}
+#intro-container menu div{
+  display: inline-block;
+}
+
+#intro-container menu #logo{
+  width: 9%;
+  vertical-align: top;
+}
+
+#intro-container menu #menu-lista{
+  width: 89%;
+  text-align: right;
+}
+#intro-container menu #menu-lista ul{
+  margin: 0;
+  padding: 0;
+}
+#intro-container menu #menu-lista ul li{
+  display: inline-block;
+  padding: 0;
+  margin: 0 5px;
+  list-style: none;
+}
+#intro-container menu #menu-lista ul li a{
+  color: gray;
+  text-decoration: none;
+}
+#intro-container menu #menu-lista ul li a:hover{
+  color:white;
+  text-decoration: underline;
+}
